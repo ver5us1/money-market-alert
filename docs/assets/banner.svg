@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">MONEY Market Alert</title>
+  <desc id="desc">Мониторинг новостей компаний с локальным AI-анализом и Telegram-уведомлениями.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#0b1524"/><stop offset="1" stop-color="#102b36"/>
+    </linearGradient>
+    <linearGradient id="mint" x2="1" y2="1">
+      <stop stop-color="#70f0c4"/><stop offset="1" stop-color="#40c9bc"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#91b8c5" stroke-opacity=".055"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <rect x="0" y="0" width="8" height="420" fill="url(#mint)"/>
+  <circle cx="1190" cy="50" r="170" fill="#40c9bc" opacity=".035"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <rect x="56" y="49" width="48" height="48" rx="13" fill="url(#mint)"/>
+    <path d="M66 83V63h6l8 12 8-12h6v20h-6V73l-8 11-8-11v10z" fill="#0b1524"/>
+    <text x="120" y="80" fill="#70f0c4" font-size="24" font-weight="700" letter-spacing="4">MONEY</text>
+    <text x="56" y="182" fill="#f0f6f9" font-size="66" font-weight="700" letter-spacing="-2">MARKET ALERT</text>
+    <text x="59" y="235" fill="#b6c8d0" font-size="25">Новости компаний → AI-анализ → Telegram</text>
+    <text x="59" y="274" fill="#8babb8" font-size="18">Пять компаний. Персональные подписки. Локальная LLM.</text>
+    <g font-size="15" font-weight="700" fill="#d4e9ed">
+      <rect x="58" y="325" width="100" height="37" rx="18.5" fill="#1c3543"/><text x="108" y="349" text-anchor="middle">PYTHON</text>
+      <rect x="171" y="325" width="145" height="37" rx="18.5" fill="#1c3543"/><text x="243.5" y="349" text-anchor="middle">POSTGRESQL</text>
+      <rect x="329" y="325" width="115" height="37" rx="18.5" fill="#1c3543"/><text x="386.5" y="349" text-anchor="middle">FINNHUB</text>
+      <rect x="457" y="325" width="113" height="37" rx="18.5" fill="#1c3543"/><text x="513.5" y="349" text-anchor="middle">OLLAMA</text>
+    </g>
+    <rect x="850" y="57" width="374" height="305" rx="20" fill="#10212f" stroke="#335663"/>
+    <circle cx="879" cy="86" r="4" fill="#70f0c4"/>
+    <text x="893" y="92" font-size="13" fill="#93b3bd" letter-spacing="2">IN DEVELOPMENT</text>
+    <path d="M874 110H1200" stroke="#2c4653"/>
+    <text x="876" y="153" font-size="30" font-weight="700" fill="#f0f6f9">NVIDIA</text>
+    <text x="1196" y="151" font-size="16" text-anchor="end" fill="#70f0c4">NVDA</text>
+    <text x="876" y="188" font-size="14" fill="#8babb8">Демонстрационный формат</text>
+    <rect x="876" y="211" width="150" height="54" rx="9" fill="#173d3e"/>
+    <text x="888" y="232" font-size="12" fill="#a5cbc7">ВАЖНОСТЬ</text><text x="888" y="252" font-size="15" fill="#70f0c4" font-weight="700">MEDIUM</text>
+    <rect x="1040" y="211" width="158" height="54" rx="9" fill="#1d3345"/>
+    <text x="1052" y="232" font-size="12" fill="#a6bdcd">ТОНАЛЬНОСТЬ</text><text x="1052" y="252" font-size="15" fill="#d4e9ed" font-weight="700">NEUTRAL</text>
+    <path d="M876 291H1148M876 306H1194M876 321H1082" stroke="#355666" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "money-market-alert"
+version = "0.1.0.dev0"
+description = "Telegram news monitoring with Finnhub, PostgreSQL and local LLM analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+keywords = ["telegram", "news-monitoring", "ollama", "llm", "postgresql"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Communications :: Chat",
+]
+
+[project.scripts]
+money-alert-bot = "money_market_alert.bot.app:main"
+money-alert-worker = "money_market_alert.scheduler:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["money_market_alert*"]
+namespaces = false
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

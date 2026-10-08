@@ -1,0 +1,1 @@
+"""MONEY Market Alert bot."""
